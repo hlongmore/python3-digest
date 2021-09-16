@@ -1,9 +1,13 @@
-Visit http://bitbucket.org/akoha/python-digest/ for further information.
-
 This library was written to aid in the implementation of HTTP Digest Authentication for
 Python web frameworks.
 
-It may be used as follows:
+This project was originally hosted at http://bitbucket.org/akoha/python-digest/ but that link is dead.
+The github project this was forked from is presumably the most current; however the project has stagnated.
+
+This fork is to drop support for python 2, bringing the codebase up to Python 3.9, and possibly add missing features
+or items added to the standard for Digest Authentication since this repo was last maintained.
+
+Example Usage:
 
 >>> import time
 >>> import python_digest
